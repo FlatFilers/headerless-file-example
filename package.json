@@ -1,0 +1,26 @@
+{
+  "name": "headerless-file-demo",
+  "version": "1.0.0",
+  "description": "Demo of importing headerless files in Flatfile",
+  "main": "index.js",
+  "scripts": {
+    "dev": "flatfile develop app/index.ts"
+  },
+  "dependencies": {
+    "@flatfile/api": "latest",
+    "@flatfile/listener": "latest",
+    "@flatfile/plugin-record-hook": "latest",
+    "@flatfile/plugin-space-configure": "latest",
+    "@flatfile/plugin-xlsx-extractor": "latest",
+    "@flatfile/util-extractor": "latest",
+    "papaparse": "^5.4.1"
+  },
+  "devDependencies": {
+    "flatfile": "latest",
+    "@types/node": "^18.15.3",
+    "@types/papaparse": "^5.3.7",
+    "typescript": "^5.0.2"
+  },
+  "author": "",
+  "license": "MIT"
+} 
